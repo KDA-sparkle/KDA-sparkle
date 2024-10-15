@@ -49,6 +49,8 @@ Here are some of the cool things I've been working on:
 - 🏅 **[All GitHub Badge](https://github.com/KDA-sparkle/all-github-badge):** A repository to generate custom badges for GitHub profiles and projects.
 - 🍔 **[Ohmyfood](https://github.com/KDA-sparkle/Ohmyfood):** A project focusing on developing a responsive website for restaurant menus.
 - 📚 **[Booki (OpenClassrooms Project)](https://github.com/KDA-sparkle/booki-openclassroom-projet-3):** A project developed as part of the OpenClassrooms curriculum to design a booking platform for accommodations.
+- 🔍 **[Status Spy Discord](https://github.com/KDA-sparkle/Status-spy-discord):** A Discord bot project that tracks user statuses, monitoring their online presence.
+- 📝 **[Projet 6 - OpenClassroom](https://github.com/KDA-sparkle/Projet6-openclassroom):** A comprehensive web development project part of the OpenClassrooms curriculum.
 
 ## ⚙️ How to Use My Projects
 
