@@ -4,8 +4,14 @@
 
 Welcome to my GitHub profile! I'm a passionate web developer who loves creating all kinds of projects, especially those that are fun, interactive, and filled with creativity. From custom CSS themes to Discord bots, I enjoy bringing ideas to life!
 
-## 🚀 About Me
+---
 
+## 🏆 **Snake Animation**
+![GitHub Snake Animation](https://github.com/KDA-sparkle/KDA-sparkle/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+## 🚀 About Me
 - 🎀 **Name:** KDA-sparkle
 - 🌸 **Pronouns:** She/Her
 - 💼 **Current Role:** Freelance Web Developer
@@ -13,53 +19,44 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 - 🎮 **Favorite Games:** Genshin Impact, Honkai Star Rail, League of Legends
 - 🍀 **Hobbies:** Coding, Drawing, Streaming, and Cosplay
 
-## 🛠️ Skills
+---
 
-- **Languages:** HTML, CSS, JavaScript, Python
-- **Frameworks & Libraries:** React, Vue.js, Node.js, Django
-- **Tools & Platforms:** Git, GitHub, VS Code, WebStorm, Figma, Adobe XD
-- **Other:** UI/UX Design, Graphic Design, Responsive Web Design, Theming
+## 📊 **GitHub Stats**
+<p align="center">
+    <img src="https://github-readme-stats.vercel.app/api?username=KDA-sparkle&show_icons=true&theme=tokyonight" height="165">
+    <img src="https://streak-stats.demolab.com?user=KDA-sparkle&theme=tokyonight" height="165">
+</p>
 
-## 📊 GitHub Stats
+---
 
-![KDA-sparkle's GitHub stats](https://github-readme-stats.vercel.app/api?username=KDA-sparkle&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KDA-sparkle&layout=compact&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com?user=KDA-sparkle&theme=tokyonight)
+## 🌐 **Find Me Online**
+[![Website](https://img.shields.io/badge/🌐%20Website-KDA--sparkle.dev-ff69b4?style=flat-square)](https://yourwebsite.com)
+[![Twitter](https://img.shields.io/badge/Twitter-%40KDA__sparkle-1DA1F2?style=flat-square)](https://twitter.com/KDA_sparkle)
+[![Twitch](https://img.shields.io/badge/Twitch-KDA__sparkle-6441a5?style=flat-square)](https://twitch.tv/kda_delta)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-KDA--sparkle-0077b5?style=flat-square)](https://linkedin.com/in/KDA-sparkle)
+[![DeviantArt](https://img.shields.io/badge/DeviantArt-KDA--sparkle-05CC47?style=flat-square)](https://deviantart.com/KDA-sparkle)
 
-## 🏆 GitHub Trophies
+---
 
-![trophy](https://github-profile-trophy.vercel.app/?username=KDA-sparkle&theme=monokai&no-frame=true&column=7&margin-w=15&margin-h=15)
+## 🎵 **Currently Listening To**
+[![Spotify](https://novatorem-silkseven.vercel.app/api/spotify)](https://open.spotify.com/user/KDA-sparkle)
 
-## 🌐 Find Me Online
+---
 
-- 🌐 **Website:** [kda-sparkle.dev](https://yourwebsite.com) (i work)
-- 🐦 **Twitter:** [@KDA_sparkle](https://twitter.com/KDA_sparkle)
-- 🎮 **Twitch:** [KDA_sparkle](https://twitch.tv/kda_delta)
-- 🧑‍💻 **LinkedIn:** [KDA-sparkle](https://linkedin.com/in/KDA-sparkle) (i work)
-- 🎨 **DeviantArt:** [KDA-sparkle](https://deviantart.com/KDA-sparkle) (i work)
+## 🏆 **GitHub Trophies**
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=KDA-sparkle&theme=monokai&no-frame=true&column=7)
 
-## 💻 Projects
+---
 
-Here are some of the cool things I've been working on:
+## 🔥 **GitHub Activity**
+![Metrics](https://github.com/KDA-sparkle/KDA-sparkle/blob/main/github-metrics.svg)
 
-- 🎀 **[Astolfo CSS Theme](https://github.com/KDA-sparkle/css.astolfo.fedi.agency):** A cute and customizable CSS theme inspired by Astolfo.
-- 🐍 **[DM All Bot (Python)](https://github.com/KDA-sparkle/dm-all-bot-python):** A powerful Discord bot that sends messages to all members in a server.
-- 🎰 **[Slot Bot (Discord)](https://github.com/KDA-sparkle/Slot-Bot-discord):** A fun slot machine game bot for Discord.
-- 🤖 **[DM All Bot (Node.js)](https://github.com/KDA-sparkle/dm-all-bot):** Another version of the DM All Bot, built with Node.js for a different experience.
-- 🏅 **[All GitHub Badge](https://github.com/KDA-sparkle/all-github-badge):** A repository to generate custom badges for GitHub profiles and projects.
-- 🍔 **[Ohmyfood](https://github.com/KDA-sparkle/Ohmyfood):** A project focusing on developing a responsive website for restaurant menus.
-- 📚 **[Booki (OpenClassrooms Project)](https://github.com/KDA-sparkle/booki-openclassroom-projet-3):** A project developed as part of the OpenClassrooms curriculum to design a booking platform for accommodations.
-- 🔍 **[Status Spy Discord](https://github.com/KDA-sparkle/Status-spy-discord):** A Discord bot project that tracks user statuses, monitoring their online presence.
-- 📝 **[Projet 6 - OpenClassroom](https://github.com/KDA-sparkle/Projet6-openclassroom):** A comprehensive web development project part of the OpenClassrooms curriculum.
+---
 
-## ⚙️ How to Use My Projects
+## ⚙️ **How to Use My Projects**
+To use any of my CSS themes or other projects, simply copy the relevant code or follow the installation instructions provided in each repository.
 
-To use any of my CSS themes or other projects, simply copy the relevant code or follow the installation instructions provided in each repository. For CSS themes, you can often import them directly into your project with a simple `@import` statement.
+---
 
-## 💖 Acknowledgements
-
-Special thanks to the amazing open-source community, and to everyone who inspires me to keep creating. I love sharing my work with the world and hope you enjoy using it as much as I enjoyed making it!
-
-## 📄 License
-
+## 📄 **License**
 All my projects are licensed under the MIT License - see the [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) file for details.
