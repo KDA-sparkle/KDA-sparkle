@@ -6,8 +6,15 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 
 ---
 
-## 🏆 **Snake Animation**
-![GitHub Snake Animation](https://github.com/KDA-sparkle/KDA-sparkle/blob/output/github-contribution-grid-snake.svg)
+## 🎀 **ASCII Animated Title**
+<p align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&center=true&vCenter=true&multiline=true&height=50&lines=✨+Welcome+to+my+GitHub!+✨;💖+Full-Stack+Developer+💖;🎮+Gaming+%7C+Cybersecurity+%7C+UI%2FUX+💡" />
+</p>
+
+---
+
+## 🏆 **Snake Animation (Auto-Update)**
+![GitHub Snake](https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake.svg)
 
 ---
 
@@ -38,17 +45,7 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 
 ---
 
-## 🎵 **Currently Listening To**
-[![Spotify](https://novatorem-silkseven.vercel.app/api/spotify)](https://open.spotify.com/user/KDA-sparkle)
-
----
-
-## 🏆 **GitHub Trophies**
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=KDA-sparkle&theme=monokai&no-frame=true&column=7)
-
----
-
-## 🔥 **GitHub Activity**
+## 🔥 **GitHub Contribution Graph**
 ![Metrics](https://github.com/KDA-sparkle/KDA-sparkle/blob/main/github-metrics.svg)
 
 ---
