@@ -14,7 +14,15 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics.svg
+          filename: dist/github-metrics.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories
           config_timezone: Europe/Paris
+
+      - name: Commit and Push Metrics
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add dist/github-metrics.svg
+          git commit -m "📊 Updated GitHub metrics"
+          git push
