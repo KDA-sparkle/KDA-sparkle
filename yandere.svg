@@ -1,20 +1,36 @@
-<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
-  <text x="10" y="20" font-size="24" font-family="Arial" fill="#fff">
-    <tspan>Vous... m'avez remarqué, n'est-ce pas ?</tspan>
-    <animate attributeName="opacity" from="0" to="1" dur="2s" repeatCount="1" fill="freeze" />
-    <animate attributeName="x" from="10" to="10" dur="2s" repeatCount="1" fill="freeze" />
-    <animate attributeName="y" from="20" to="20" dur="2s" repeatCount="1" fill="freeze" />
-  </text>
-  <text x="10" y="50" font-size="24" font-family="Arial" fill="#fff" opacity="0">
-    <tspan>Vous êtes dans mon monde maintenant, piégé dans ma réalité tordue.</tspan>
-    <animate attributeName="opacity" from="0" to="1" dur="2s" repeatCount="1" fill="freeze" begin="2s" />
-    <animate attributeName="x" from="10" to="10" dur="2s" repeatCount="1" fill="freeze" begin="2s" />
-    <animate attributeName="y" from="50" to="50" dur="2s" repeatCount="1" fill="freeze" begin="2s" />
-  </text>
-  <text x="10" y="80" font-size="24" font-family="Arial" fill="#fff" opacity="0">
-    <tspan>Je code, je crée, je traque... mais uniquement pour ceux qui sont dignes.</tspan>
-    <animate attributeName="opacity" from="0" to="1" dur="2s" repeatCount="1" fill="freeze" begin="4s" />
-    <animate attributeName="x" from="10" to="10" dur="2s" repeatCount="1" fill="freeze" begin="4s" />
-    <animate attributeName="y" from="80" to="80" dur="2s" repeatCount="1" fill="freeze" begin="4s" />
-  </text>
-</svg>
+name: Generate Glitch Text Animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Met à jour toutes les 6 heures
+  push:
+  workflow_dispatch:
+
+jobs:
+  glitch-text:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Glitch Text SVG
+        run: |
+          echo '<svg xmlns="http://www.w3.org/2000/svg" width="600" height="100">
+            <text x="50%" y="50%" font-size="36" fill="red" text-anchor="middle" dominant-baseline="middle">
+              You can’t escape me...
+            </text>
+            <text x="50%" y="70%" font-size="36" fill="white" text-anchor="middle" dominant-baseline="middle">
+              I see everything...
+            </text>
+            <text x="50%" y="90%" font-size="36" fill="pink" text-anchor="middle" dominant-baseline="middle">
+              Welcome to your nightmare...
+            </text>
+          </svg>' > glitch-text.svg
+
+      - name: Commit and Push SVG
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add glitch-text.svg
+          git commit -m "🔪 Updated glitch text animation"
+          git push
