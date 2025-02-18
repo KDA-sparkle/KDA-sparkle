@@ -1,0 +1,28 @@
+name: Generate GitHub Metrics
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  push:
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, community, repositories
+          config_timezone: Europe/Paris
+
+      - name: Commit and Push Metrics
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add github-metrics.svg
+          git commit -m "📊 Updated GitHub metrics"
+          git push
