@@ -2,15 +2,20 @@ name: Generate Yandere Glitch Animation
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */1 * * *"  # Exécute toutes les heures
   push:
-  workflow_dispatch:
+    branches:
+      - main  # Exécute aussi à chaque push sur la branche principale
+  workflow_dispatch:  # Permet de l'exécuter manuellement via GitHub Actions
 
 jobs:
   generate-glitch-text:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Désactive les credentials par défaut
 
       - name: Generate Yandere Glitch SVG
         run: |
@@ -44,4 +49,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add yandere-glitch-text.svg
           git commit -m "🔪 Updated Yandere glitch animation"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main
