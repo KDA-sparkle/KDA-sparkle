@@ -7,27 +7,26 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 ---
 
 ## 🔪 **YANDERE MODE ACTIVATED**
-
-
-░▒▓█▓▒░░▒▓█▓▒░░▒▓██████▓▒░░▒▓███████▓▒░░▒▓███████▓▒░░▒▓████████▓▒░▒▓███████▓▒░░▒▓████████▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
- ░▒▓██████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓██████▓▒░ ░▒▓███████▓▒░░▒▓██████▓▒░   
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░        
-   ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░ 
-                                                                                             
 ---
 
-## 🔥 **Yandere Glitch**
+## 🔥 **Yandere Glitch Animation**
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere.yml">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere-glitch-text.svg">
 </p>
 
 ---
 
-## 🏆 **Commits**
-![GitHub Snake](https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/snake.yml)
+## 🏆 **GitHub Contribution Snake**
+<p align="center">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-contribution-grid-snake.svg">
+</p>
+
+---
+
+## 📊 **GitHub Metrics**
+<p align="center">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-metrics.svg">
+</p>
 
 ---
 
@@ -55,11 +54,6 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 [![Twitch](https://img.shields.io/badge/Twitch-KDA__sparkle-6441a5?style=flat-square)](https://twitch.tv/kda_delta)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-KDA--sparkle-0077b5?style=flat-square)](https://linkedin.com/in/KDA-sparkle)
 [![DeviantArt](https://img.shields.io/badge/DeviantArt-KDA--sparkle-05CC47?style=flat-square)](https://deviantart.com/KDA-sparkle)
-
----
-
-## 🔥 **GitHub Contribution Graph**
-![Metrics](https://github.com/KDA-sparkle/KDA-sparkle/blob/main/metrics.yml)
 
 ---
 
