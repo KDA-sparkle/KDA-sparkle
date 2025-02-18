@@ -21,13 +21,13 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 
 ## 🔥 **Yandere Glitch**
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere-glitch-text.svg">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere.yml">
 </p>
 
 ---
 
 ## 🏆 **Commits**
-![GitHub Snake](https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/snake.yml)
 
 ---
 
@@ -59,7 +59,7 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 ---
 
 ## 🔥 **GitHub Contribution Graph**
-![Metrics](https://github.com/KDA-sparkle/KDA-sparkle/blob/main/github-metrics.svg)
+![Metrics](https://github.com/KDA-sparkle/KDA-sparkle/blob/main/metrics.yml)
 
 ---
 
