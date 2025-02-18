@@ -9,22 +9,21 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 ## 🔪 **YANDERE MODE ACTIVATED**
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/dist/yandere-glitch-text.svg">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere-glitch-text.svg">
 </p>
-
 
 ---
 
 ## 🏆 **GitHub Contribution**
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/dist/github-contribution-grid-snake.svg">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-contribution-grid-snake.svg">
 </p>
 
 ---
 
 ## 📊 **GitHub Metrics**
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/dist/github-metrics.svg">
+    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-metrics.svg">
 </p>
 
 ---
