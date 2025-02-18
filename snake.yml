@@ -16,11 +16,10 @@ jobs:
           github_user_name: KDA-sparkle
           outputs: |
             dist/github-contribution-grid-snake.svg
-          frame_duration: 1 
       - name: Commit and Push Snake Animation
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "github-actions"
           git add dist/github-contribution-grid-snake.svg
-          git commit -m "🐍 Update GitHub contribution snake animation"
+          git commit -m "🐍 Updated GitHub contribution snake animation"
           git push
