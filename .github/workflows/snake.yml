@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # Exécute toutes les 30 minutes
+    - cron: "0 */1 * * *"  # Exécute toutes les heures
   push:
     branches:
       - main
@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Désactive les credentials par défaut
 
       - name: Generate Snake Contribution Grid
         uses: Platane/snk@master
@@ -27,4 +29,4 @@ jobs:
           git config --global user.name "GitHub Actions"
           git add github-contribution-grid-snake.svg
           git commit -m "🐍 Updated GitHub contribution snake animation"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main
