@@ -13,7 +13,7 @@ Welcome to my GitHub profile! I'm a passionate web developer who loves creating 
 
 ---
 
-## 🏆 **Snake Animation (Auto-Update)**
+## 🏆 **Commits**
 ![GitHub Snake](https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake.svg)
 
 ---
