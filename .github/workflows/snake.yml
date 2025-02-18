@@ -8,6 +8,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write  # Donne à GitHub Actions le droit d'écrire dans le dépôt
+
 jobs:
   snake:
     runs-on: ubuntu-latest
@@ -15,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Désactive les credentials par défaut
+          persist-credentials: false  # Désactive les credentials GitHub Actions par défaut
 
       - name: Generate Snake Contribution Grid
         uses: Platane/snk@master
@@ -24,9 +27,10 @@ jobs:
           svg_out_path: github-contribution-grid-snake.svg
 
       - name: Commit and Push Snake Animation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add github-contribution-grid-snake.svg
-          git commit -m "🐍 Updated GitHub contribution snake animation"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main
+          git add github-contribution-grid-snake.svg || echo "No changes to commit"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🐍 Updated GitHub contribution snake animation" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main)
