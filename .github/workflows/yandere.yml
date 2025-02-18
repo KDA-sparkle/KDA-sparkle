@@ -5,8 +5,11 @@ on:
     - cron: "0 */1 * * *"  # Exécute toutes les heures
   push:
     branches:
-      - main  # Exécute aussi à chaque push sur la branche principale
-  workflow_dispatch:  # Permet de l'exécuter manuellement via GitHub Actions
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write  # Autorise l'écriture dans le dépôt
 
 jobs:
   generate-glitch-text:
@@ -15,7 +18,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # Désactive les credentials par défaut
+          persist-credentials: false  # Empêche les conflits d'authentification
 
       - name: Generate Yandere Glitch SVG
         run: |
@@ -44,9 +47,10 @@ jobs:
           </svg>' > yandere-glitch-text.svg
 
       - name: Commit and Push SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add yandere-glitch-text.svg
-          git commit -m "🔪 Updated Yandere glitch animation"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main
+          git add yandere-glitch-text.svg || echo "No changes to commit"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🔪 Updated Yandere glitch animation" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main)
