@@ -2,15 +2,24 @@ name: Generate GitHub Metrics
 
 on:
   schedule:
-    - cron: "0 */1 * * *"
+    - cron: "0 */1 * * *"  # Exécute toutes les heures
   push:
-  workflow_dispatch:
+    branches:
+      - main  # Exécute aussi à chaque push sur la branche principale
+  workflow_dispatch:  # Permet de l'exécuter manuellement via GitHub Actions
+
+permissions:
+  contents: write  # Donne à GitHub Actions le droit d'écrire dans le dépôt
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # Désactive les credentials GitHub Actions par défaut
+
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
@@ -20,9 +29,10 @@ jobs:
           config_timezone: Europe/Paris
 
       - name: Commit and Push Metrics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add github-metrics.svg
-          git commit -m "📊 Updated GitHub metrics"
-          git push
+          git add github-metrics.svg || echo "No changes to commit"
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Updated GitHub metrics" && git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KDA-sparkle/KDA-sparkle.git HEAD:main)
