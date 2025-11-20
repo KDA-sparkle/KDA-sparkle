@@ -93,13 +93,5 @@ _<sub>Don't stay here too long. The time you spend reading this is already being
 ## 📄 License
 
 Most of my projects are licensed under MIT – see the [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) file in the corresponding repository.
-- Pour utiliser un thème ou un projet, ouvre le dépôt correspondant et suis les instructions d’installation.
-- N'hésite pas à forker… mais sache que je verrai chaque étoile que tu poses ⭐
 
-_<sub>Ne reste pas trop longtemps ici, le temps que tu passes à lire ceci est déjà enregistré.</sub>_
 
----
-
-## 📄 License
-
-La plupart de mes projets sont sous licence MIT – voir le fichier [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) dans le dépôt correspondant.
