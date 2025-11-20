@@ -1,64 +1,85 @@
-# Hi there, I'm KDA-sparkle 👋✨
+# 🔪 Yandere KDA-sparkle
 
 ![Profile Views](https://komarev.com/ghpvc/?username=KDA-sparkle&color=ff69b4&style=plastic)
 
-Welcome to my GitHub profile! I'm a passionate web developer who loves creating all kinds of projects, especially those that are fun, interactive, and filled with creativity. From custom CSS themes to Discord bots, I enjoy bringing ideas to life!
+Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle.
 
 ---
 
-## 🔪 **YANDERE MODE ACTIVATED**
+## 💫 YANDERE MODE: ONLINE
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere-glitch-text.svg">
+  <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/yandere-glitch-text.svg" alt="YANDERE MODE ACTIVATED glitch animation">
+</p>
+
+<p align="center">
+  <i>Tu peux fermer l'onglet... mais je verrai toujours tes commits.</i>
 </p>
 
 ---
 
-## 🏆 **GitHub Contribution**
+## 📊 Obsession Stats
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-contribution-grid-snake.svg">
+  <!-- Serpent de contributions (généré par GitHub Actions sur la branche output) -->
+  <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake-dark.svg" alt="Yandere contribution snake">
+</p>
+
+<p align="center">
+  <!-- Carte de métriques GitHub (générée par lowlighter/metrics) -->
+  <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-metrics.svg" alt="GitHub metrics of KDA-sparkle">
+</p>
+
+<p align="center">
+  <!-- Stats détaillées -->
+  <img src="https://github-readme-stats.vercel.app/api?username=KDA-sparkle&show_icons=true&theme=tokyonight&title_color=ff4b8b&icon_color=ff4b8b" height="165" alt="GitHub stats" />
+  <img src="https://streak-stats.demolab.com?user=KDA-sparkle&theme=tokyonight&ring=ff4b8b&fire=ff4b8b&currStreakLabel=ff4b8b" height="165" alt="GitHub contribution streak" />
 </p>
 
 ---
 
-## 📊 **GitHub Metrics**
+## 🌸 Qui se cache derrière le sourire ?
+
+- 🎀 **Nom :** KDA-sparkle
+- 🌸 **Pronoms :** She/Her
+- 💼 **Rôle :** Freelance Web Developer
+- 💖 **Fixations :** Anime, gaming, web dev, cybersécurité, UI/UX… et tout ce qui peut être rendu <b>trop</b> mignon
+- 🔪 **Personnalité dev :** front-end glitter, back-end control freak
+- 🎮 **Jeux favoris :** Genshin Impact, Honkai Star Rail, League of Legends
+- 🍀 **Hobbies :** coder, dessiner, streamer, cosplay… et surveiller tes commits en silence
+
+---
+
+## 🕷️ Web of Links
+
 <p align="center">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/main/github-metrics.svg">
+  <a href="https://yourwebsite.com">
+    <img src="https://img.shields.io/badge/🌐%20Website-KDA--sparkle.dev-ff69b4?style=flat-square" alt="Website" />
+  </a>
+  <a href="https://twitter.com/KDA_sparkle">
+    <img src="https://img.shields.io/badge/Twitter-%40KDA__sparkle-1DA1F2?style=flat-square" alt="Twitter" />
+  </a>
+  <a href="https://twitch.tv/kda_delta">
+    <img src="https://img.shields.io/badge/Twitch-KDA__sparkle-6441a5?style=flat-square" alt="Twitch" />
+  </a>
+  <a href="https://linkedin.com/in/KDA-sparkle">
+    <img src="https://img.shields.io/badge/LinkedIn-KDA--sparkle-0077b5?style=flat-square" alt="LinkedIn" />
+  </a>
+  <a href="https://deviantart.com/KDA-sparkle">
+    <img src="https://img.shields.io/badge/DeviantArt-KDA--sparkle-05CC47?style=flat-square" alt="DeviantArt" />
+  </a>
 </p>
 
 ---
 
-## 🚀 About Me
-- 🎀 **Name:** KDA-sparkle
-- 🌸 **Pronouns:** She/Her
-- 💼 **Current Role:** Freelance Web Developer
-- 💖 **Interests:** Anime, Gaming, Web Development, Cybersecurity, and UI/UX Design
-- 🎮 **Favorite Games:** Genshin Impact, Honkai Star Rail, League of Legends
-- 🍀 **Hobbies:** Coding, Drawing, Streaming, and Cosplay
+## 🩸 Projects & Themes
+
+- Je crée des thèmes CSS, des projets web interactifs et des expériences un peu… <i>obsessives</i>.
+- Pour utiliser un thème ou un projet, ouvre le dépôt correspondant et suis les instructions d’installation.
+- N'hésite pas à forker… mais sache que je verrai chaque étoile que tu poses ⭐
 
 ---
 
-## 📊 **GitHub Stats**
-<p align="center">
-    <img src="https://github-readme-stats.vercel.app/api?username=KDA-sparkle&show_icons=true&theme=tokyonight" height="165">
-    <img src="https://streak-stats.demolab.com?user=KDA-sparkle&theme=tokyonight" height="165">
-</p>
+## 📄 License
 
----
-
-## 🌐 **Find Me Online**
-[![Website](https://img.shields.io/badge/🌐%20Website-KDA--sparkle.dev-ff69b4?style=flat-square)](https://yourwebsite.com)
-[![Twitter](https://img.shields.io/badge/Twitter-%40KDA__sparkle-1DA1F2?style=flat-square)](https://twitter.com/KDA_sparkle)
-[![Twitch](https://img.shields.io/badge/Twitch-KDA__sparkle-6441a5?style=flat-square)](https://twitch.tv/kda_delta)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-KDA--sparkle-0077b5?style=flat-square)](https://linkedin.com/in/KDA-sparkle)
-[![DeviantArt](https://img.shields.io/badge/DeviantArt-KDA--sparkle-05CC47?style=flat-square)](https://deviantart.com/KDA-sparkle)
-
----
-
-## ⚙️ **How to Use My Projects**
-To use any of my CSS themes or other projects, simply copy the relevant code or follow the installation instructions provided in each repository.
-
----
-
-## 📄 **License**
-All my projects are licensed under the MIT License - see the [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) file for details.
+La plupart de mes projets sont sous licence MIT – voir le fichier [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) dans le dépôt correspondant.
