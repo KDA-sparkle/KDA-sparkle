@@ -38,6 +38,14 @@ Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle
 
 ---
 
+## ⚠️ Yandere Warnings
+
+- Je sais quand tu scrolles trop vite.
+- Je sais quand tu regardes mes stats sans laisser d'étoile.
+- Si tu codes à 3h du matin... on est déjà en train de pair-programmer.
+
+---
+
 ## 🌸 Qui se cache derrière le sourire ?
 
 - 🎀 **Nom :** KDA-sparkle
@@ -54,7 +62,7 @@ Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle
 
 <p align="center">
   <a href="https://yandere.eu">
-    <img src="https://img.shields.io/badge/🌐%20Website-KDA--sparkle.dev-ff69b4?style=flat-square" alt="Website" />
+    <img src="https://img.shields.io/badge/🌐%20Website-yandere.eu-ff69b4?style=flat-square" alt="Yandere.eu" />
   </a>
   <a href="https://twitter.com/KDA_sparkle">
     <img src="https://img.shields.io/badge/Twitter-%40KDA__sparkle-1DA1F2?style=flat-square" alt="Twitter" />
@@ -78,9 +86,10 @@ Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle
 - Pour utiliser un thème ou un projet, ouvre le dépôt correspondant et suis les instructions d’installation.
 - N'hésite pas à forker… mais sache que je verrai chaque étoile que tu poses ⭐
 
+_<sub>Ne reste pas trop longtemps ici, le temps que tu passes à lire ceci est déjà enregistré.</sub>_
+
 ---
 
 ## 📄 License
 
 La plupart de mes projets sont sous licence MIT – voir le fichier [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) dans le dépôt correspondant.
-
