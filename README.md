@@ -53,7 +53,7 @@ Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle
 ## 🕷️ Web of Links
 
 <p align="center">
-  <a href="https://yourwebsite.com">
+  <a href="https://yandere.eu">
     <img src="https://img.shields.io/badge/🌐%20Website-KDA--sparkle.dev-ff69b4?style=flat-square" alt="Website" />
   </a>
   <a href="https://twitter.com/KDA_sparkle">
@@ -83,3 +83,4 @@ Bienvenue dans mon monde. Ici, le code est mignon, mais l'obsession est mortelle
 ## 📄 License
 
 La plupart de mes projets sont sous licence MIT – voir le fichier [LICENSE](https://github.com/KDA-sparkle/css.astolfo.fedi.agency/blob/main/LICENSE) dans le dépôt correspondant.
+
