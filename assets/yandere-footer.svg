@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="130" viewBox="0 0 900 130">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0307"/>
+      <stop offset="1" stop-color="#22070f"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+  </defs>
+  <style>
+    .say  { font: 600 18px 'Courier New', Consolas, monospace; fill: #ffb3d1; letter-spacing: 2px; }
+    .sig  { font: italic 13px 'Courier New', Consolas, monospace; fill: #ff4b8b; opacity: .6; }
+    .flick { animation: fk 4s infinite steps(1); }
+    @keyframes fk { 0%,90%,100% { opacity: 1 } 92% { opacity: .2 } 94% { opacity: 1 } 96% { opacity: .4 } }
+    .lid   { transform-box: fill-box; transform-origin: center; animation: blink 4s infinite; }
+    @keyframes blink { 0%,90%,100% { transform: scaleY(1) } 94% { transform: scaleY(.08) } }
+    .pupil { animation: look 6s ease-in-out infinite; }
+    @keyframes look { 0%,25% { transform: translateX(-6px) } 50%,75% { transform: translateX(6px) } 100% { transform: translateX(-6px) } }
+  </style>
+  <rect width="900" height="130" rx="18" fill="url(#bg)"/>
+  <g transform="translate(450 38)">
+    <g class="lid">
+      <path d="M-30 0Q0-24 30 0Q0 24-30 0Z" fill="#fff0f6" stroke="#ff4b8b" stroke-width="2"/>
+      <g class="pupil">
+        <circle r="10" fill="#d4145a"/>
+        <circle r="4.5" fill="#12040a"/>
+        <circle cx="-3" cy="-3" r="1.8" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <text class="say flick" x="450" y="88" text-anchor="middle">you can close this tab... but i'll still be watching ♡</text>
+  <text class="sig" x="450" y="112" text-anchor="middle">— KDA-sparkle 🔪</text>
+  <rect width="900" height="130" rx="18" fill="url(#scan)"/>
+  <rect x="1" y="1" width="898" height="128" rx="17" fill="none" stroke="#ff4b8b" stroke-opacity=".35" stroke-width="2"/>
+</svg>

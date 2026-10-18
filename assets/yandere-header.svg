@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22070f"/>
+      <stop offset="1" stop-color="#0a0307"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb3d1"/>
+      <stop offset="0.5" stop-color="#ff4b8b"/>
+      <stop offset="1" stop-color="#d4145a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0.6" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.75"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff1f5a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff1f5a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+    <path id="heart" d="M0 3C0-1 6-1 6 3C6-1 12-1 12 3C12 7 6 10 6 12C6 10 0 7 0 3Z"/>
+    <clipPath id="slice">
+      <rect class="slice" x="0" y="100" width="900" height="14"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .title { font: 800 72px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; letter-spacing: 6px; }
+    .red  { fill: #ff0040; opacity: .75; animation: gr 3s infinite steps(1); }
+    .cyan { fill: #00e5ff; opacity: .45; animation: gc 3s infinite steps(1); }
+    .main { fill: url(#txt); }
+    .cut  { fill: #fff0f6; animation: cut 3s infinite steps(1); }
+    @keyframes gr   { 0%,84%,100% { transform: translate(-2px,0) } 86% { transform: translate(-9px,3px) } 90% { transform: translate(7px,-2px) } 94% { transform: translate(-4px,1px) } }
+    @keyframes gc   { 0%,84%,100% { transform: translate(2px,0) }  86% { transform: translate(9px,-3px) } 90% { transform: translate(-7px,2px) } 94% { transform: translate(4px,-1px) } }
+    @keyframes cut  { 0%,84%,100% { opacity: 0 } 86%,90% { opacity: 1; transform: translateX(14px) } 92% { opacity: 1; transform: translateX(-10px) } }
+    .slice { animation: sl 3s infinite steps(1); }
+    @keyframes sl   { 0%,84% { transform: translateY(0) } 86% { transform: translateY(-30px) } 90% { transform: translateY(20px) } 94% { transform: translateY(-8px) } }
+
+    .sub    { font: 600 19px 'Courier New', Consolas, monospace; fill: #ffb3d1; letter-spacing: 3px; }
+    .whisper{ font: italic 14px 'Courier New', Consolas, monospace; fill: #ff4b8b; opacity: .65; letter-spacing: 1px; }
+    .cursor { fill: #ff4b8b; animation: bl 1s infinite steps(1); }
+    @keyframes bl { 50% { opacity: 0 } }
+
+    .drip { fill: #9e0022; transform-box: fill-box; transform-origin: top; animation: dr 6s ease-in infinite; }
+    .d2 { animation-delay: 1.4s } .d3 { animation-delay: 2.9s } .d4 { animation-delay: 4.1s } .d5 { animation-delay: .7s }
+    @keyframes dr { 0% { transform: scaleY(.15) } 70% { transform: scaleY(1) } 100% { transform: scaleY(1.05) } }
+    .drop { fill: #b3002d; animation: fall 6s ease-in infinite; opacity: 0; }
+    @keyframes fall { 0%,68% { opacity: 0; transform: translateY(0) } 70% { opacity: 1 } 100% { opacity: 0; transform: translateY(190px) } }
+
+    .h { fill: #ff4b8b; opacity: 0; animation: fl 7s linear infinite; }
+    .h2 { animation-delay: 1.8s } .h3 { animation-delay: 3.5s } .h4 { animation-delay: 5.2s } .h5 { animation-delay: 2.6s }
+    @keyframes fl { 0% { opacity: 0; transform: translateY(0) } 15% { opacity: .7 } 100% { opacity: 0; transform: translateY(-170px) } }
+
+    .lid   { transform-box: fill-box; transform-origin: center; animation: blink 5s infinite; }
+    @keyframes blink { 0%,92%,100% { transform: scaleY(1) } 95% { transform: scaleY(.08) } }
+    .pupil { animation: look 8s ease-in-out infinite; }
+    @keyframes look { 0%,20% { transform: translateX(0) } 30%,50% { transform: translateX(-7px) } 60%,80% { transform: translateX(7px) } 100% { transform: translateX(0) } }
+
+    .beat { transform-box: fill-box; transform-origin: center; animation: beat 1.2s infinite; }
+    @keyframes beat { 0%,100% { transform: scale(1) } 15% { transform: scale(1.25) } 30% { transform: scale(1) } 45% { transform: scale(1.15) } }
+  </style>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <ellipse cx="450" cy="125" rx="380" ry="110" fill="url(#glow)"/>
+
+  <!-- blood dripping from the top edge -->
+  <path d="M18 0H882V8C800 12 700 6 600 10S380 4 280 9S90 5 18 8Z" fill="#7a0019"/>
+  <rect class="drip"     x="92"  y="6" width="7"  height="38" rx="3.5"/>
+  <rect class="drip d2"  x="231" y="6" width="5"  height="24" rx="2.5"/>
+  <rect class="drip d3"  x="612" y="8" width="8"  height="46" rx="4"/>
+  <rect class="drip d4"  x="748" y="6" width="5"  height="28" rx="2.5"/>
+  <rect class="drip d5"  x="402" y="6" width="4"  height="18" rx="2"/>
+  <circle class="drop"    cx="95.5" cy="48" r="4"/>
+  <circle class="drop d3" cx="616"  cy="58" r="4.5"/>
+
+  <!-- floating hearts -->
+  <use href="#heart" class="h"    x="70"  y="230"/>
+  <use href="#heart" class="h h2" x="180" y="240"/>
+  <use href="#heart" class="h h3" x="700" y="235"/>
+  <use href="#heart" class="h h4" x="820" y="240"/>
+  <use href="#heart" class="h h5" x="520" y="245"/>
+
+  <!-- glitch title -->
+  <g text-anchor="middle">
+    <text class="title red"  x="450" y="128">KDA-sparkle</text>
+    <text class="title cyan" x="450" y="128">KDA-sparkle</text>
+    <text class="title main" x="450" y="128">KDA-sparkle</text>
+    <text class="title cut"  x="450" y="128" clip-path="url(#slice)">KDA-sparkle</text>
+  </g>
+
+  <!-- subtitle -->
+  <g text-anchor="middle">
+    <text class="sub" x="440" y="172">♡ YANDERE MODE: ONLINE ♡<tspan class="cursor"> ▌</tspan></text>
+  </g>
+  <text class="whisper" x="450" y="212" text-anchor="middle">// i see every commit you push. every. single. one.</text>
+
+  <!-- the eye that watches you -->
+  <g transform="translate(822 52)">
+    <g class="lid">
+      <path d="M-26 0Q0-22 26 0Q0 22-26 0Z" fill="#fff0f6" stroke="#ff4b8b" stroke-width="2"/>
+      <g class="pupil">
+        <circle r="9" fill="#d4145a"/>
+        <circle r="4" fill="#12040a"/>
+        <circle cx="-3" cy="-3" r="1.6" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- beating heart -->
+  <g transform="translate(66 46)">
+    <g transform="scale(1.9)"><use href="#heart" class="beat" fill="#ff1f5a"/></g>
+  </g>
+
+  <rect width="900" height="260" rx="18" fill="url(#scan)"/>
+  <rect width="900" height="260" rx="18" fill="url(#vig)"/>
+  <rect x="1" y="1" width="898" height="258" rx="17" fill="none" stroke="#ff4b8b" stroke-opacity=".35" stroke-width="2"/>
+</svg>
