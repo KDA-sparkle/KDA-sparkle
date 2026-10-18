@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=KDA-sparkle.profile&left_text=VICTIMS&left_color=%23ff4b8b&right_color=%231a0610" height="28" alt="Profile views">
+  <img src="https://hits.sh/github.com/KDA-sparkle.svg?style=for-the-badge&label=VICTIMS&color=1a0610&labelColor=ff4b8b&extraCount=910" alt="Profile views">
   <a href="https://valyrix.eu"><img src="https://img.shields.io/badge/ClipVault-valyrix.eu-1a0610?style=for-the-badge&labelColor=ff4b8b" alt="ClipVault"></a>
   <a href="https://yandere.eu"><img src="https://img.shields.io/badge/yandere.eu-%E2%99%A1-1a0610?style=for-the-badge&labelColor=ff4b8b" alt="yandere.eu"></a>
 </p>
