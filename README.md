@@ -114,7 +114,7 @@ A cheat sheet of shields.io badges for your READMEs.
   <a href="https://yandere.eu"><img src="https://img.shields.io/badge/yandere.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=ff4b8b" alt="yandere.eu"></a>
   <a href="https://twitter.com/KDA_sparkle"><img src="https://img.shields.io/badge/@KDA__sparkle-1a0610?style=for-the-badge&logo=x&logoColor=ff4b8b" alt="Twitter"></a>
   <a href="https://twitch.tv/kda_delta"><img src="https://img.shields.io/badge/kda__delta-1a0610?style=for-the-badge&logo=twitch&logoColor=ff4b8b" alt="Twitch"></a>
-  <a href="https://linkedin.com/in/KDA-sparkle"><img src="https://img.shields.io/badge/KDA--sparkle-1a0610?style=for-the-badge&logo=linkedin&logoColor=ff4b8b" alt="LinkedIn"></a>
+  <a href="https://valyrix.eu"><img src="https://img.shields.io/badge/valyrix.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=ff4b8b" alt="valyrix.eu"></a>
   <a href="https://deviantart.com/KDA-sparkle"><img src="https://img.shields.io/badge/KDA--sparkle-1a0610?style=for-the-badge&logo=deviantart&logoColor=ff4b8b" alt="DeviantArt"></a>
 </p>
 
