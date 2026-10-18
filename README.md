@@ -34,8 +34,8 @@ Capture, library, editing and sharing of game clips, for **Windows and Linux**, 
 <p>
   <img src="https://img.shields.io/github/v/release/KDA-sparkle/clipvault-releases?style=for-the-badge&color=1a0610&labelColor=ff4b8b&label=latest" alt="Latest release">
   <img src="https://img.shields.io/github/downloads/KDA-sparkle/clipvault-releases/total?style=for-the-badge&color=1a0610&labelColor=ff4b8b&label=downloads" alt="Downloads">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1a0610?style=for-the-badge&logo=windows&logoColor=ff4b8b" alt="Windows">
-  <img src="https://img.shields.io/badge/Linux-deb%20%7C%20pacman%20%7C%20AppImage-1a0610?style=for-the-badge&logo=linux&logoColor=ff4b8b" alt="Linux">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-1a0610?style=for-the-badge&logo=windows&logoColor=white&labelColor=ff4b8b" alt="Windows">
+  <img src="https://img.shields.io/badge/Linux-deb%20%7C%20pacman%20%7C%20AppImage-1a0610?style=for-the-badge&logo=linux&logoColor=white&labelColor=ff4b8b" alt="Linux">
 </p>
 
 Electron + React desktop app, Fastify server, React Native (Expo) mobile app, and a native C# module for per-process audio capture.
@@ -54,26 +54,26 @@ A cheat sheet of shields.io badges for your READMEs.
 ## 🗡️ Weapons of choice
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-1a0610?style=for-the-badge&logo=typescript&logoColor=ff4b8b" alt="TypeScript">
-  <img src="https://img.shields.io/badge/JavaScript-1a0610?style=for-the-badge&logo=javascript&logoColor=ff4b8b" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Python-1a0610?style=for-the-badge&logo=python&logoColor=ff4b8b" alt="Python">
-  <img src="https://img.shields.io/badge/C%23-1a0610?style=for-the-badge&logo=dotnet&logoColor=ff4b8b" alt="C#">
-  <img src="https://img.shields.io/badge/HTML5-1a0610?style=for-the-badge&logo=html5&logoColor=ff4b8b" alt="HTML5">
-  <img src="https://img.shields.io/badge/CSS3-1a0610?style=for-the-badge&logo=css3&logoColor=ff4b8b" alt="CSS3">
-  <img src="https://img.shields.io/badge/Sass-1a0610?style=for-the-badge&logo=sass&logoColor=ff4b8b" alt="Sass">
+  <img src="https://img.shields.io/badge/-TypeScript-1a0610?style=for-the-badge&logo=typescript&logoColor=white&labelColor=ff4b8b" alt="TypeScript">
+  <img src="https://img.shields.io/badge/-JavaScript-1a0610?style=for-the-badge&logo=javascript&logoColor=white&labelColor=ff4b8b" alt="JavaScript">
+  <img src="https://img.shields.io/badge/-Python-1a0610?style=for-the-badge&logo=python&logoColor=white&labelColor=ff4b8b" alt="Python">
+  <img src="https://img.shields.io/badge/-C%23-1a0610?style=for-the-badge&logo=dotnet&logoColor=white&labelColor=ff4b8b" alt="C#">
+  <img src="https://img.shields.io/badge/-HTML5-1a0610?style=for-the-badge&logo=html5&logoColor=white&labelColor=ff4b8b" alt="HTML5">
+  <img src="https://img.shields.io/badge/-CSS3-1a0610?style=for-the-badge&logo=css&logoColor=white&labelColor=ff4b8b" alt="CSS3">
+  <img src="https://img.shields.io/badge/-Sass-1a0610?style=for-the-badge&logo=sass&logoColor=white&labelColor=ff4b8b" alt="Sass">
   <br>
-  <img src="https://img.shields.io/badge/React-1a0610?style=for-the-badge&logo=react&logoColor=ff4b8b" alt="React">
-  <img src="https://img.shields.io/badge/Electron-1a0610?style=for-the-badge&logo=electron&logoColor=ff4b8b" alt="Electron">
-  <img src="https://img.shields.io/badge/React%20Native-1a0610?style=for-the-badge&logo=react&logoColor=ff4b8b" alt="React Native">
-  <img src="https://img.shields.io/badge/Expo-1a0610?style=for-the-badge&logo=expo&logoColor=ff4b8b" alt="Expo">
-  <img src="https://img.shields.io/badge/Node.js-1a0610?style=for-the-badge&logo=nodedotjs&logoColor=ff4b8b" alt="Node.js">
-  <img src="https://img.shields.io/badge/Fastify-1a0610?style=for-the-badge&logo=fastify&logoColor=ff4b8b" alt="Fastify">
+  <img src="https://img.shields.io/badge/-React-1a0610?style=for-the-badge&logo=react&logoColor=white&labelColor=ff4b8b" alt="React">
+  <img src="https://img.shields.io/badge/-Electron-1a0610?style=for-the-badge&logo=electron&logoColor=white&labelColor=ff4b8b" alt="Electron">
+  <img src="https://img.shields.io/badge/-React%20Native-1a0610?style=for-the-badge&logo=react&logoColor=white&labelColor=ff4b8b" alt="React Native">
+  <img src="https://img.shields.io/badge/-Expo-1a0610?style=for-the-badge&logo=expo&logoColor=white&labelColor=ff4b8b" alt="Expo">
+  <img src="https://img.shields.io/badge/-Node.js-1a0610?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=ff4b8b" alt="Node.js">
+  <img src="https://img.shields.io/badge/-Fastify-1a0610?style=for-the-badge&logo=fastify&logoColor=white&labelColor=ff4b8b" alt="Fastify">
   <br>
-  <img src="https://img.shields.io/badge/Vite-1a0610?style=for-the-badge&logo=vite&logoColor=ff4b8b" alt="Vite">
-  <img src="https://img.shields.io/badge/Tailwind-1a0610?style=for-the-badge&logo=tailwindcss&logoColor=ff4b8b" alt="Tailwind CSS">
-  <img src="https://img.shields.io/badge/FFmpeg-1a0610?style=for-the-badge&logo=ffmpeg&logoColor=ff4b8b" alt="FFmpeg">
-  <img src="https://img.shields.io/badge/Discord%20bots-1a0610?style=for-the-badge&logo=discord&logoColor=ff4b8b" alt="Discord bots">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-1a0610?style=for-the-badge&logo=githubactions&logoColor=ff4b8b" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/-Vite-1a0610?style=for-the-badge&logo=vite&logoColor=white&labelColor=ff4b8b" alt="Vite">
+  <img src="https://img.shields.io/badge/-Tailwind-1a0610?style=for-the-badge&logo=tailwindcss&logoColor=white&labelColor=ff4b8b" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/-FFmpeg-1a0610?style=for-the-badge&logo=ffmpeg&logoColor=white&labelColor=ff4b8b" alt="FFmpeg">
+  <img src="https://img.shields.io/badge/-Discord%20bots-1a0610?style=for-the-badge&logo=discord&logoColor=white&labelColor=ff4b8b" alt="Discord bots">
+  <img src="https://img.shields.io/badge/-GitHub%20Actions-1a0610?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=ff4b8b" alt="GitHub Actions">
 </p>
 
 <p align="center"><img src="./assets/yandere-divider.svg" width="100%" alt=""></p>
@@ -111,11 +111,11 @@ A cheat sheet of shields.io badges for your READMEs.
 ## 🕷️ Web of Links
 
 <p align="center">
-  <a href="https://yandere.eu"><img src="https://img.shields.io/badge/yandere.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=ff4b8b" alt="yandere.eu"></a>
-  <a href="https://twitter.com/KDA_sparkle"><img src="https://img.shields.io/badge/@KDA__sparkle-1a0610?style=for-the-badge&logo=x&logoColor=ff4b8b" alt="Twitter"></a>
-  <a href="https://twitch.tv/kda_delta"><img src="https://img.shields.io/badge/kda__delta-1a0610?style=for-the-badge&logo=twitch&logoColor=ff4b8b" alt="Twitch"></a>
-  <a href="https://valyrix.eu"><img src="https://img.shields.io/badge/valyrix.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=ff4b8b" alt="valyrix.eu"></a>
-  <a href="https://deviantart.com/KDA-sparkle"><img src="https://img.shields.io/badge/KDA--sparkle-1a0610?style=for-the-badge&logo=deviantart&logoColor=ff4b8b" alt="DeviantArt"></a>
+  <a href="https://yandere.eu"><img src="https://img.shields.io/badge/-yandere.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=ff4b8b" alt="yandere.eu"></a>
+  <a href="https://twitter.com/KDA_sparkle"><img src="https://img.shields.io/badge/-@KDA__sparkle-1a0610?style=for-the-badge&logo=x&logoColor=white&labelColor=ff4b8b" alt="Twitter"></a>
+  <a href="https://twitch.tv/kda_delta"><img src="https://img.shields.io/badge/-kda__delta-1a0610?style=for-the-badge&logo=twitch&logoColor=white&labelColor=ff4b8b" alt="Twitch"></a>
+  <a href="https://valyrix.eu"><img src="https://img.shields.io/badge/-valyrix.eu-1a0610?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=ff4b8b" alt="valyrix.eu"></a>
+  <a href="https://deviantart.com/KDA-sparkle"><img src="https://img.shields.io/badge/-KDA--sparkle-1a0610?style=for-the-badge&logo=deviantart&logoColor=white&labelColor=ff4b8b" alt="DeviantArt"></a>
 </p>
 
 <p align="center">
