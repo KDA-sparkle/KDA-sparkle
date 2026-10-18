@@ -94,10 +94,7 @@ A cheat sheet of shields.io badges for your READMEs.
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/KDA-sparkle/KDA-sparkle/output/github-contribution-grid-snake.svg" alt="Yandere contribution snake">
-  </picture>
+  <img src="./assets/yandere-snake.svg" width="100%" alt="A snake writing YANDERE">
 </p>
 
 <p align="center"><img src="./assets/yandere-divider.svg" width="100%" alt=""></p>
