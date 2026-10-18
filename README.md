@@ -20,7 +20,7 @@
 - 💼 **Role:** Freelance developer: web, desktop, mobile and bots
 - 🔪 **Dev personality:** front-end glitter, back-end control freak
 - 💖 **Fixations:** anime, gaming, cybersecurity, UI/UX, and anything that can be made <b>too</b> cute
-- 🎮 **Favorite games:** Genshin Impact, Honkai Star Rail, League of Legends
+- 🎮 **Favorite games:** Neverness to Everness, Honkai Star Rail, Valorant
 - 🍀 **Hobbies:** coding, drawing, streaming, cosplay... and silently watching your commits
 
 <p align="center"><img src="./assets/yandere-divider.svg" width="100%" alt=""></p>
